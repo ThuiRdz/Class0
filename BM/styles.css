@@ -1,8 +1,13 @@
+
 h2{
-color: darkblue;
+  font-family: fantasy, sans-serif;
+  color: darkblue;
+padding: 2px;
 text-decoration: underline;
 }
 h3{
+  font-style: italic;
+  font-family: monospace;
   color: yellow;
 }
 p{
@@ -11,5 +16,26 @@ text-decoration: underline;
 }
 
 li{
-  color: orange;
+  font-family: cursive;
+  font-style: italic;
+  color: orange
+}
+
+th,td{
+  text-align: center;
+  border: 3px solid black;
+  color: #c54864;
+  padding: 5px;
+}
+
+th{
+  background-color: darkblue;
+}
+
+table{
+  width: 50%;
+  background-color: orange;
+  border: 3px solid black;
+  border-collapse: collapse; /* quitar los bordes dobles */
+
 }
