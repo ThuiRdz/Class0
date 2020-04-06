@@ -1,8 +1,15 @@
 h2{
 color: darkblue;
-text-decoration: overline;
+text-decoration: underline;
+}
+h3{
+  color: yellow;
 }
 p{
 color: red;
 text-decoration: underline;
+}
+
+li{
+  color: orange;
 }
