@@ -6,9 +6,9 @@ padding: 2px;
 text-decoration: underline;
 }
 h3{
-  font-style: italic;
-  font-family: monospace;
-  color: yellow;
+  font-family: serif;
+  color: darkgreen;
+
 }
 p{
 color: red;
@@ -33,9 +33,27 @@ th{
 }
 
 table{
+  margin: auto;
   width: 50%;
   background-color: orange;
   border: 3px solid black;
   border-collapse: collapse; /* quitar los bordes dobles */
 
+}
+
+.bold{
+
+  font-style: oblique;
+  font-size: 20px;
+}
+
+#l1 {
+  background-color: lightgrey;
+}
+
+#l2{
+  background-position: center;
+  background-color: teal;
+  margin: 15px;
+  padding: 20px;
 }
