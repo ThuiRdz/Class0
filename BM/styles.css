@@ -24,25 +24,23 @@ li{
 th,td{
   text-align: center;
   border: 3px solid black;
-  color: #c54864;
   padding: 5px;
 }
 
 th{
-  background-color: darkblue;
+  background-color: lightgrey;
 }
 
 table{
   margin: auto;
   width: 50%;
-  background-color: orange;
+  background-color: none;
   border: 3px solid black;
   border-collapse: collapse; /* quitar los bordes dobles */
 
 }
 
 .bold{
-
   font-style: oblique;
   font-size: 20px;
 }
