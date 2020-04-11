@@ -48,6 +48,18 @@ color: red;
 background-color: yellow;
 }
 
+p{
+  text-align: justify;
+}
+
+.container{
+}
+
+.imgcontainer{
+  width: 180px;
+  length: 180px;
+}
+
 @media print {
 .noimprimir{
 display: none;
