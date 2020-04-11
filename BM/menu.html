@@ -1,68 +1,12 @@
 <!DOCTYPE html>
 <head>
   <title>Menu!</title>
-  <style media="screen">
-    h1 {
-      text-align: center;
-      color: green;
-    }
 
-h2{
-  color: brown;
-}
-
-    li{
-    font-style: italic;
-    font-family: fantasy;
-    }
-
-    a {
-      font-family: serif;
-      color: blue;
-      font-style: normal;
-    }
-
-    a::before{
-      content: " \2733  Click here: ";
-      font-weight: bold;
-    }
-
-    input{
-      margin: 10px;
-      text-color: darkgreen;
-
-    }
-
-    #sopas  #tchrema{  /* dando estilo a lo que está dentro de cremas con espacio */
-      color: green;
-    }
-
-    #caldos > #tcaldo{
-      color: grey;
-    }
-
-    #sendr:hover { /* cabia el color cuando pasas sobre el botón (sudo element)*/
-      background-color: red;
-      color: white;
-
-    }
-
-  #marcar::selection{ /* Cabia el color cuando se selecciona el highlight */
-    color: red;
-    background-color: yellow;
-  }
-
-  @media print{
-    . screen-only{
-      display: none;
-    }
-  }
-
-  </style>
+  <link rel="stylesheet" href="stylesmenu.css">
 
   <body>
 
-<div class="screen-only">
+<div class="noimprimir">
 
   <h2>Index</h2>
   <ol>
@@ -74,7 +18,8 @@ h2{
 
 </div>
 
-<p id="marcar">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p id="marcar">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+<p class="noimprimir">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 <div id= "sopas">
 
