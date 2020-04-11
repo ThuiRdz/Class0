@@ -22,6 +22,11 @@ h2{
       font-style: normal;
     }
 
+    a::before{
+      content: " \2764 Click here: ";
+      font-weight: bold;
+    }
+
     input{
       margin: 10px;
       text-color: darkgreen;
@@ -34,6 +39,18 @@ h2{
 
     #caldos > #tcaldo{
       color: grey;
+    }
+
+    #sendr{
+      width: 100px;
+      fint-size: 25px;
+      background-color: grey;
+    }
+
+    #sendr:hover { /* cabia el color cuando pasas sobre el botón (sudo element)*/
+      background-color: red;
+      color: white;
+
     }
 
   </style>
@@ -168,7 +185,7 @@ h2{
 
 <div>
 
-  <button type="button" name="button" > Send Request</button>
+  <button type="button" name="button" id= "sendr"> Send Request</button>
 
 </div>
 
