@@ -41,34 +41,38 @@ h2{
       color: grey;
     }
 
-    #sendr{
-      width: 100px;
-      fint-size: 25px;
-      background-color: grey;
-    }
-
     #sendr:hover { /* cabia el color cuando pasas sobre el botón (sudo element)*/
       background-color: red;
       color: white;
 
     }
 
-  #marcar::selection{
+  #marcar::selection{ /* Cabia el color cuando se selecciona el highlight */
     color: red;
-    background-color: yellow; 
+    background-color: yellow;
+  }
+
+  @media print{
+    . screen-only{
+      display: none;
+    }
   }
 
   </style>
 
   <body>
 
-<h2>Index</h2>
-<ol>
-  <li><a href="#sopas"> Sopas</a></li>
-  <li><a href="#entradas"> Entradas</a></li>
-  <li><a href="#fuerte"> Plato fuerte</a></li>
-  <li><a href="#cmenu">Crea tu menú</a></li>
-</ol>
+<div class="screen-only">
+
+  <h2>Index</h2>
+  <ol>
+    <li><a href="#sopas"> Sopas</a></li>
+    <li><a href="#entradas"> Entradas</a></li>
+    <li><a href="#fuerte"> Plato fuerte</a></li>
+    <li><a href="#cmenu">Crea tu menú</a></li>
+  </ol>
+
+</div>
 
 <p id="marcar">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
