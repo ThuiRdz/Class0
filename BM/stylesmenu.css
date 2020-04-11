@@ -19,7 +19,7 @@ a {
 }
 
 a::before{
-  content: " \2733  Click here: ";
+  content: " \270A  Click here: ";
   font-weight: bold;
 }
 
