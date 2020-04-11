@@ -55,3 +55,11 @@ table{
   margin: 15px;
   padding: 20px;
 }
+
+@media print {
+
+  .noimprimir, #l1{
+    display: none;
+  }
+
+}
