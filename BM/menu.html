@@ -24,6 +24,16 @@ h2{
 
     input{
       margin: 10px;
+      text-color: darkgreen;
+
+    }
+
+    #sopas  #tchrema{  /* dando estilo a lo que está dentro de cremas con espacio */
+      color: green;
+    }
+
+    #caldos > #tcaldo{
+      color: grey;
     }
 
   </style>
@@ -41,11 +51,31 @@ h2{
 <div id= "sopas">
 
   <h3 style="color: blue">Sopas</h3>
-<ul>
-  <li> Caldo de pollo</li>
-  <li>sopa de caracol</li>
-  <li>what a very good soup</li>
+
+<ul id="sopas">
+<li >Cremas</li>
+<ol id="tchrema">
+  <li>Poblana</li>
+  <li>Elote</li>
+  <li>Espinaca</li>
+</ol>
+
 </ul>
+
+  <ul id= "caldos">
+    <li>Caldos</li>
+
+<ol id="tcaldo">
+  <li>pollo</li>
+  <li>gallina</li>
+</ol>
+</ul>
+
+  <ul>
+    <li>sopa de caracol</li>
+    <li>what a very good soup</li>
+
+  </ul>
 
 </div>
 
@@ -79,6 +109,9 @@ h2{
 
   <input type="text" name="name" placeholder="Nombre">
   <input type="text" name="correo" placeholder="Correo">
+
+  <p>Número de personas</p>
+  <input type="number" name="np" placeholder="Numero de personas">
 
 </div>
 
