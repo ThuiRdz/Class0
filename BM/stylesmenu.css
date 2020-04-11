@@ -53,11 +53,15 @@ p{
 }
 
 .container{
+  display: flex;
+  flex-wrap: wrap;
+
 }
 
 .imgcontainer{
   width: 180px;
   length: 180px;
+  margin: 10px;
 }
 
 @media print {
