@@ -22,6 +22,10 @@ h2{
       font-style: normal;
     }
 
+    input{
+      margin: 10px;
+    }
+
   </style>
 
   <body>
@@ -70,21 +74,59 @@ h2{
 
 <div class="crear">
 
+  <p>Dejanos tu nombre y un correo</p>
+
   <input type="text" name="name" placeholder="Nombre">
   <input type="text" name="correo" placeholder="Correo">
 
 </div>
 
-<div id="elijesopa">
+<div>
 
-  <input name="sopa" placeholder="Elije sopa" list="sopas">
-  <datalist id="sopas">
+<p>Elije una sopa</p>
+
+  <input type= "text"  placeholder="Elije sopa" list="esopa">
+  <datalist id="esopa">
 
 <option value="caldo de pollo">
 <option value="Sopa de caracol">
-  </option>
+  <option value="what a very good soup">
 
   </datalist>
+</div>
+
+<div>
+
+  <p>Elije una entrada</p>
+
+  <input type="text" placeholder="Entrada" list="eentrada">
+  <datalist id=eentrada>
+
+    <option value="Ensalada de novios">
+    <option value="Rollo de serpentina">
+      <option value="Rollo de Phila Relleno">
+
+  </datalist>
+</div>
+
+<div>
+
+  <p>Elije un Plato Fuerte</p>
+
+  <input type="text" placeholder="Plato fuerte" list="efuerte">
+<datalist id=efuerte>
+
+<option value="Pierna Horneada">
+  <option value="Rollo de serpentina">
+    <option value="Pavo a la galantina">
+
+</datalist>
+
+</div>
+
+<div>
+
+  <button type="button" name="button" > Send Request</button>
 
 </div>
 
