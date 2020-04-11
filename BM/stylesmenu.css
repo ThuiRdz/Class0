@@ -58,9 +58,9 @@ p{
 
 }
 
-.imgcontainer{
-  width: 180px;
-  length: 180px;
+.container > .imgcontainer{
+  width: 100px;
+  /* length: 30%; */
   margin: 10px;
 }
 
