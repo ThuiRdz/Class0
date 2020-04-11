@@ -1,0 +1,55 @@
+h1 {
+  text-align: center;
+  color: green;
+}
+
+h2{
+color: brown;
+}
+
+li{
+font-style: italic;
+font-family: fantasy;
+}
+
+a {
+  font-family: serif;
+  color: blue;
+  font-style: normal;
+}
+
+a::before{
+  content: " \2733  Click here: ";
+  font-weight: bold;
+}
+
+input{
+  margin: 10px;
+  text-color: darkgreen;
+
+}
+
+#sopas  #tchrema{  /* dando estilo a lo que está dentro de cremas con espacio */
+  color: green;
+}
+
+#caldos > #tcaldo{
+  color: grey;
+}
+
+#sendr:hover { /* cabia el color cuando pasas sobre el botón (sudo element)*/
+  background-color: red;
+  color: white;
+
+}
+
+#marcar::selection{ /* Cabia el color cuando se selecciona el highlight */
+color: red;
+background-color: yellow;
+}
+
+@media print {
+.noimprimir{
+display: none;
+}
+}
