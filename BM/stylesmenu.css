@@ -53,3 +53,36 @@ background-color: yellow;
 display: none;
 }
 }
+
+
+/* responsive color */
+@media (min-width: 500px){
+  body{
+    background-color: lightgrey;
+  }
+}
+
+@media (max-width: 499px) {
+  body{
+    background-color: orange;
+  }
+
+}
+
+/* responsive text */
+@media (min-width: 500px){
+  h1::before{
+    content: "Arma tu menú"
+  }
+  h1{
+      font-family: fantasy;
+  }
+
+}
+
+@media (max-width: 499px) {
+  h1::before{
+    content: "Menú"
+  }
+
+}
