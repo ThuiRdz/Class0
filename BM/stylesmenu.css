@@ -1,104 +1,80 @@
+@charset "UTF-8";
+#variable {
+  background-color: teal;
+  color: darkblue; }
+
 h1 {
   text-align: center;
-  color: green;
-}
+  color: green; }
 
-h2{
-color: brown;
-}
+h2 {
+  color: teal; }
 
-li{
-font-style: italic;
-font-family: fantasy;
-}
+li {
+  font-style: italic;
+  font-family: fantasy; }
 
 a {
   font-family: serif;
-  color: blue;
-  font-style: normal;
-}
+  color: darkblue;
+  font-style: normal; }
 
-a::before{
+a::before {
   content: " \270A  Click here: ";
-  font-weight: bold;
-}
+  font-weight: bold; }
 
-input{
+input {
   margin: 10px;
-  text-color: darkgreen;
+  text-color: darkgreen; }
 
-}
+#sopas #tchrema {
+  /* dando estilo a lo que está dentro de cremas con espacio */
+  color: green; }
 
-#sopas  #tchrema{  /* dando estilo a lo que está dentro de cremas con espacio */
-  color: green;
-}
+#caldos > #tcaldo {
+  color: grey; }
 
-#caldos > #tcaldo{
-  color: grey;
-}
-
-#sendr:hover { /* cabia el color cuando pasas sobre el botón (sudo element)*/
+#sendr:hover {
+  /* cabia el color cuando pasas sobre el botón (sudo element)*/
   background-color: red;
-  color: white;
+  color: white; }
 
-}
+#marcar::selection {
+  /* Cabia el color cuando se selecciona el highlight */
+  color: red;
+  background-color: yellow; }
 
-#marcar::selection{ /* Cabia el color cuando se selecciona el highlight */
-color: red;
-background-color: yellow;
-}
+p {
+  text-align: justify; }
 
-p{
-  text-align: justify;
-}
-
-.container{
+.container {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; }
 
-}
-
-.container > .imgcontainer{
+.container > .imgcontainer {
   width: 100px;
   /* length: 30%; */
-  margin: 10px;
-}
+  margin: 10px; }
 
 @media print {
-.noimprimir{
-display: none;
-}
-}
-
-
+  .noimprimir {
+    display: none; } }
 /* responsive color */
-@media (min-width: 500px){
-  body{
-    background-color: lightgrey;
-  }
-}
-
+@media (min-width: 500px) {
+  body {
+    background-color: lightgrey; } }
 @media (max-width: 499px) {
-  body{
-    background-color: orange;
-  }
-
-}
-
+  body {
+    background-color: orange; } }
 /* responsive text */
-@media (min-width: 500px){
-  h1::before{
-    content: "Arma tu menú"
-  }
-  h1{
-      font-family: fantasy;
-  }
+@media (min-width: 500px) {
+  h1::before {
+    content: "Arma tu menú"; }
 
-}
-
+  h1 {
+    font-family: fantasy; } }
 @media (max-width: 499px) {
-  h1::before{
-    content: "Menú"
-  }
+  h1::before {
+    content: "Menú"; } }
 
-}
+/*# sourceMappingURL=stylesmenu.css.map */
