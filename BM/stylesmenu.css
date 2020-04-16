@@ -43,6 +43,26 @@ input {
   #lista #lcomida ul {
     color: darkred; }
 
+.gm, .ym, .rm, #sendr {
+  font-family: fantasy;
+  text-align: center;
+  font-size: 19px;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px; }
+
+.gm {
+  background-color: green; }
+
+.ym {
+  background-color: yellow;
+  opacity: 0.5; }
+
+.rm {
+  background-color: #ffcccc; }
+
 #sendr:hover {
   /* cabia el color cuando pasas sobre el botón (sudo element)*/
   background-color: red;
