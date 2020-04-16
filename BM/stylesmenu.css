@@ -34,6 +34,15 @@ input {
 #caldos > #tcaldo {
   color: grey; }
 
+#lista p {
+  color: orange; }
+#lista #lcomida {
+  color: yellow; }
+  #lista #lcomida ol {
+    color: grey; }
+  #lista #lcomida ul {
+    color: darkred; }
+
 #sendr:hover {
   /* cabia el color cuando pasas sobre el botón (sudo element)*/
   background-color: red;
